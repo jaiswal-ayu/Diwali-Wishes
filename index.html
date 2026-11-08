@@ -1,0 +1,306 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#100921">
+    <meta name="description" content="Celebrate Diwali 2026 with beautiful wishes, diyas, fireworks and personalized greeting cards.">
+    <title>Happy Diwali 2026 | Festival of Lights</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <canvas id="fireworks"></canvas>
+    <div class="ambient-glow"></div>
+
+    <!-- NAVIGATION -->
+    <header class="navbar">
+        <a href="#home" class="logo">🪔 Diwali<span>2026</span></a>
+
+        <nav id="navMenu">
+            <a href="#home" data-en="Home" data-hi="होम">Home</a>
+            <a href="#wishes" data-en="Wishes" data-hi="शुभकामनाएं">Wishes</a>
+            <a href="#diyas" data-en="Diyas" data-hi="दीये">Diyas</a>
+            <a href="#gallery" data-en="Gallery" data-hi="गैलरी">Gallery</a>
+            <a href="#create" data-en="Create Card" data-hi="कार्ड बनाएं">Create Card</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button id="languageBtn" class="nav-btn">हिंदी</button>
+            <button id="menuBtn" class="nav-btn menu-btn" aria-label="Toggle navigation">☰</button>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+                <div class="festival-label">✦ THE FESTIVAL OF LIGHTS ✦</div>
+
+                <div class="hero-diya">🪔</div>
+
+                <h1 data-en="Happy Diwali" data-hi="शुभ दीपावली">
+                    Happy Diwali
+                </h1>
+
+                <h2>2026</h2>
+
+                <p class="hero-description"
+                   data-en="May the divine light of Diwali bring happiness, prosperity, love and endless success into your life."
+                   data-hi="दीपावली की दिव्य रोशनी आपके जीवन में सुख, समृद्धि, प्रेम और अपार सफलता लाए।">
+                    May the divine light of Diwali bring happiness,
+                    prosperity, love and endless success into your life.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#create" class="gold-btn" data-en="Create Your Wishes ✨" data-hi="अपनी शुभकामनाएं बनाएं ✨">
+                        Create Your Wishes ✨
+                    </a>
+                    <button id="fireworkBtn" class="outline-btn" data-en="Launch Fireworks 🎆" data-hi="आतिशबाजी शुरू करें 🎆">
+                        Launch Fireworks 🎆
+                    </button>
+                </div>
+
+                <div class="countdown-box">
+                    <p data-en="DIWALI CELEBRATION COUNTDOWN" data-hi="दीपावली उत्सव की उलटी गिनती">
+                        DIWALI CELEBRATION COUNTDOWN
+                    </p>
+                    <div id="countdown">
+                        <div><strong id="days">00</strong><span>Days</span></div>
+                        <div><strong id="hours">00</strong><span>Hours</span></div>
+                        <div><strong id="minutes">00</strong><span>Minutes</span></div>
+                        <div><strong id="seconds">00</strong><span>Seconds</span></div>
+                    </div>
+                    <p id="countdownMessage"></p>
+                </div>
+            </div>
+
+            <div class="scroll-indicator">SCROLL TO CELEBRATE ↓</div>
+        </section>
+
+        <!-- WISHES -->
+        <section class="section" id="wishes">
+            <div class="section-heading">
+                <span>✦ SPREAD HAPPINESS ✦</span>
+                <h2 data-en="Festival of Joy" data-hi="खुशियों का त्योहार">Festival of Joy</h2>
+                <p data-en="May every diya bring a new reason to smile." data-hi="हर दीपक आपके जीवन में मुस्कान की नई वजह लाए।">
+                    May every diya bring a new reason to smile.
+                </p>
+            </div>
+
+            <div class="wish-grid">
+                <article class="wish-card">
+                    <div>✨</div>
+                    <h3 data-en="Happiness" data-hi="खुशियां">Happiness</h3>
+                    <p data-en="May your life shine brighter than a thousand diyas." data-hi="आपका जीवन हजारों दीपकों से भी अधिक रोशन हो।">
+                        May your life shine brighter than a thousand diyas.
+                    </p>
+                </article>
+
+                <article class="wish-card">
+                    <div>🌸</div>
+                    <h3 data-en="Prosperity" data-hi="समृद्धि">Prosperity</h3>
+                    <p data-en="May Goddess Lakshmi bless your home with abundance." data-hi="मां लक्ष्मी आपके घर को धन और समृद्धि से भर दें।">
+                        May Goddess Lakshmi bless your home with abundance.
+                    </p>
+                </article>
+
+                <article class="wish-card">
+                    <div>💛</div>
+                    <h3 data-en="Love & Peace" data-hi="प्रेम और शांति">Love & Peace</h3>
+                    <p data-en="May your family always be surrounded by love and peace." data-hi="आपका परिवार हमेशा प्रेम और शांति से घिरा रहे।">
+                        May your family always be surrounded by love and peace.
+                    </p>
+                </article>
+
+                <article class="wish-card">
+                    <div>🚀</div>
+                    <h3 data-en="Success" data-hi="सफलता">Success</h3>
+                    <p data-en="May every dream become a beautiful reality." data-hi="आपका हर सपना एक खूबसूरत हकीकत बने।">
+                        May every dream become a beautiful reality.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- INTERACTIVE DIYAS -->
+        <section class="section diya-section" id="diyas">
+            <div class="section-heading">
+                <span>✦ LIGHT UP YOUR WORLD ✦</span>
+                <h2 data-en="Light a Diya" data-hi="दीप जलाएं">Light a Diya</h2>
+                <p data-en="Click the diyas to light them up and spread positivity." data-hi="दीयों पर क्लिक करें और खुशियां फैलाएं।">
+                    Click the diyas to light them up and spread positivity.
+                </p>
+            </div>
+
+            <div class="diya-container">
+                <button class="interactive-diya" aria-label="Light diya">🪔</button>
+                <button class="interactive-diya" aria-label="Light diya">🪔</button>
+                <button class="interactive-diya" aria-label="Light diya">🪔</button>
+                <button class="interactive-diya" aria-label="Light diya">🪔</button>
+                <button class="interactive-diya" aria-label="Light diya">🪔</button>
+            </div>
+            <p id="diyaMessage">✨ Light all the diyas!</p>
+        </section>
+
+        <!-- Diwali Photo Gallery -->
+<section class="gallery">
+    <h2>✨ Diwali Memories ✨</h2>
+
+    <div class="gallery-grid">
+
+        <img src="images/children-diwali.png"
+             alt="Children celebrating Diwali">
+
+        <img src="images/rangoli.png"
+             alt="Beautiful Diwali Rangoli">
+
+        <img src="images/festival-of-lights.png"
+             alt="Festival of Lights">
+
+        <img src="images/varanasi-ghats.png"
+             alt="Diwali at Varanasi Ghats">
+
+    </div>
+</section>
+
+        <!-- GREETING GENERATOR -->
+        <section class="section create-section" id="create">
+            <div class="section-heading">
+                <span>✦ MADE WITH LOVE ✦</span>
+                <h2 data-en="Create Your Greeting Card" data-hi="अपना शुभकामना कार्ड बनाएं">
+                    Create Your Greeting Card
+                </h2>
+                <p data-en="Create a special greeting for your friends and family." data-hi="अपने दोस्तों और परिवार के लिए एक खास शुभकामना बनाएं।">
+                    Create a special greeting for your friends and family.
+                </p>
+            </div>
+
+            <div class="generator-layout">
+                <div class="generator-form">
+                    <label for="senderName" data-en="Your Name" data-hi="आपका नाम">Your Name</label>
+                    <input id="senderName" type="text" maxlength="40" placeholder="Enter your name">
+
+                    <label for="receiverName" data-en="Receiver's Name" data-hi="जिसे भेजना है उनका नाम">Receiver's Name</label>
+                    <input id="receiverName" type="text" maxlength="40" placeholder="Enter receiver's name (optional)">
+
+                    <label for="wishMessage" data-en="Your Message" data-hi="आपका संदेश">Your Message</label>
+                    <textarea id="wishMessage" rows="4" maxlength="250">Wishing you and your family happiness, prosperity, love and success. Have a wonderful Diwali!</textarea>
+
+                    <button id="generateBtn" class="gold-btn full-btn" data-en="Generate Greeting ✨" data-hi="शुभकामना बनाएं ✨">
+                        Generate Greeting ✨
+                    </button>
+                </div>
+
+                <div class="greeting-card" id="greetingCard">
+                    <div class="card-decoration">✦ ✧ ✦</div>
+                    <div class="card-diya">🪔</div>
+                    <div class="card-small">THE FESTIVAL OF LIGHTS</div>
+                    <h3 id="cardTitle">Happy Diwali</h3>
+                    <h4>2026</h4>
+                    <p id="cardReceiver">Wishing You & Your Family</p>
+                    <div class="card-divider">✧ ❖ ✧</div>
+                    <p id="cardMessage">Wishing you and your family happiness, prosperity, love and success. Have a wonderful Diwali!</p>
+                    <p class="card-from">With love, <strong id="cardSender">Your Name</strong></p>
+                    <div class="card-decoration">✦ ✧ ✦</div>
+                </div>
+            </div>
+
+            <div class="card-actions">
+                <button id="downloadBtn" class="gold-btn">⬇ Download PNG</button>
+                <button id="copyBtn" class="outline-btn">📋 Copy Greeting</button>
+                <button id="whatsappBtn" class="whatsapp-btn">💚 WhatsApp Share</button>
+            </div>
+            <p id="actionMessage" role="status"></p>
+        </section>
+
+
+
+     <section class="cracker-section">
+    <h2>🎆 Interactive Firecrackers</h2>
+    <p>Click a firecracker and enjoy the celebration!</p>
+
+    <div class="cracker-grid">
+        <button class="cracker-btn" data-cracker="rocket">
+            🚀<span>Rocket</span>
+        </button>
+
+        <button class="cracker-btn" data-cracker="anar">
+            🎇<span>Anar</span>
+        </button>
+
+        <button class="cracker-btn" data-cracker="chakri">
+            🌀<span>Chakri</span>
+        </button>
+
+        <button class="cracker-btn" data-cracker="flower">
+            🌸<span>Flower Pot</span>
+        </button>
+
+        <button class="cracker-btn" data-cracker="burst">
+            💥<span>Sky Burst</span>
+        </button>
+
+        <button class="cracker-btn" data-cracker="rain">
+            ✨<span>Golden Rain</span>
+        </button>
+    </div>
+</section>
+
+<div id="crackerEffects"></div>
+
+
+ <!-- MUSIC EXPERIENCE -->
+
+<section class="music-section">
+    <div>
+        <span>🎶</span>
+        <h2>Diwali Music Experience</h2>
+        <p>Enjoy beautiful festive instrumental music.</p>
+    </div>
+
+    <div class="music-player">
+        <audio id="diwaliAudio" loop preload="none">
+            <source src="music/diwali.mp3" type="audio/mpeg">
+        </audio>
+
+        <button id="musicBtn" class="gold-btn">
+            ▶ Play Music
+        </button>
+
+        <label for="volumeControl">🔊 Volume</label>
+        <input
+            type="range"
+            id="volumeControl"
+            min="0"
+            max="1"
+            step="0.05"
+            value="0.5"
+        >
+    </div>
+</section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-diya">🪔</div>
+        <h2>Happy Diwali 2026</h2>
+        <p data-en="May light always win over darkness." data-hi="प्रकाश हमेशा अंधकार पर विजय प्राप्त करे।">
+            May light always win over darkness.
+        </p>
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#wishes">Wishes</a>
+            <a href="#create">Create Card</a>
+        </div>
+        <p class="copyright">Made with ❤️ for the Festival of Lights | © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
